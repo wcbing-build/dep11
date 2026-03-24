@@ -1,0 +1,70 @@
+---
+File: DEP-11
+Version: '1.0'
+---
+Type: desktop-application
+ID: com.musehub.MuseSoundsManager
+ProjectLicense: GPL-3.0-only
+Name:
+  C: Muse Sounds Manager
+Summary:
+  C: Manage and install Muse Sounds for MuseScore Studio
+Description:
+  C: >-
+    <p>Muse Sounds Manager is the dedicated sound library manager for MuseScore Studio on Linux.</p>
+
+    <p>It allows you to download, install, and update high-quality playback sound libraries (Muse Sounds) produced by professional
+    sound engineers. These libraries provide realistic instrument playback, dramatically improving the audio fidelity of your
+    scores compared to standard MIDI or basic SoundFonts.</p>
+
+    <p>Features include:</p>
+
+    <ul><li>One-click installation of individual instrument sections (Strings, Brass, Woodwinds, Percussion, etc.)</li><li>Automatic
+    integration with MuseScore Studio (appears in the Mixer upon next launch)</li><li>Management of installed sound libraries</li><li>Support
+    for DEB and RPM based Linux distributions</li></ul>
+
+    <p>Note: This application is specifically designed for Linux systems. Windows and macOS users utilize Muse Hub for similar
+    functionality.</p>
+Developer:
+  name:
+    C: MuseScore BVBA
+Categories:
+- AudioVideo
+- Audio
+- Music
+Keywords:
+  C:
+  - sound
+  - muse
+  - manager
+  - vst
+  - instrument
+Url:
+  homepage: https://musescore.org/
+  help: https://handbook.musescore.org/handbook/installation/muse-hub#muse-sounds-manager-linux-only
+  bugtracker: https://github.com/musescore/MuseScore/issues
+  donation: https://musescore.org/en/donate
+Icon:
+  stock: muse-sounds-manager
+Launchable:
+  desktop-id:
+  - com.musehub.MuseSoundsManager.desktop
+Provides:
+  binaries:
+  - muse-sounds-manager
+Screenshots:
+- default: true
+  caption:
+    C: Main interface of Muse Sounds Manager
+  thumbnails: []
+  source-image:
+    url: https://musescore.org/sites/musescore.org/files/muse-sounds-manager-linux.png
+Releases:
+- version: 1.0.0
+  type: stable
+  unix-timestamp: 1704067200
+  description:
+    C: >-
+      <p>Initial release of Muse Sounds Manager for Linux.</p>
+ContentRating:
+  oars-1.1: {}
