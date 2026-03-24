@@ -1,0 +1,187 @@
+---
+Type: desktop-application
+ID: app.xmcl.voxelum
+ProjectLicense: MIT
+Name:
+  C: X Minecraft Launcher
+Summary:
+  C: A modern Minecraft Launcher
+Description:
+  C: "<p>\n      X Minecraft Launcher (XMCL) is a feature-rich Minecraft launcher that lets you manage\n      resources like
+    modpacks, resource packs, mods, and shader packs. It integrates with Minecraft\n      Forge, Fabric, Quilt, CurseForge,
+    and Modrinth.\n    </p>\n<p>Key features:</p>\n<ul>\n  <li>⚡️  Blazing-Fast Downloads: Concurrent multi-part downloads
+    with HTTP/HTTPS socket reuse for maximum speed</li>\n  <li>\U0001F4DA Isolated Multi-Instancing: Create conflict-free
+    environments for mods, versions, and custom configurations</li>\n  <li>\U0001F5C2 Smart Resource Management: Zero-duplication
+    storage using hard/symbolic links to optimize disk space</li>\n  <li>\U0001F4E6 One-Click Modpacks: Fully compliant import/export
+    for CurseForge &amp; Modrinth collections</li>\n  <li>\U0001F527 Direct Mod Integration: Browse and install individual
+    mods from CurseForge &amp; Modrinth</li>\n  <li>⚙️  All Major Mod Loaders: Native support for Forge, Fabric, and Quilt
+    frameworks</li>\n  <li>\U0001F3A8 Visual Enhancement Hub: Unified management for resource packs, shader packs, and texture
+    packs</li>\n  <li>\U0001F465 Multi-Account Hub: Seamless switching between Microsoft, Mojang, and third-party accounts</li>\n
+    \ <li>\U0001F310 Serverless Multiplayer: Built-in peer-to-peer hosting for instant game sharing</li>\n</ul>"
+Developer:
+  name:
+    C: Voxelum
+Categories:
+- Game
+- Utility
+Keywords:
+  C:
+  - minecraft
+  - launcher
+  - mod
+  - modpack
+  - forge
+  - fabric
+  - quilt
+  - curseforge
+  - modrinth
+Url:
+  homepage: https://xmcl.app/
+  bugtracker: https://github.com/Voxelum/x-minecraft-launcher/issues
+  help: https://xmcl.app/en/guide/install
+  vcs-browser: https://github.com/Voxelum/x-minecraft-launcher
+Launchable:
+  desktop-id:
+  - app.xmcl.voxelum.desktop
+Recommends:
+- control: pointing
+- control: keyboard
+- control: gamepad
+Screenshots:
+- default: true
+  caption:
+    C: Main interface showing instance management
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/home.png
+- caption:
+    C: Modpack browser with CurseForge and Modrinth integration
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/modpacks.png
+- caption:
+    C: Exporting a modpack
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/Exports-Modpack.png
+- caption:
+    C: Managing mods
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/Manager-Mods.png
+- caption:
+    C: Multiplayer on LAN
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/Multiplayer-on-LAN.png
+- caption:
+    C: Downloading resource packs
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/download-Resource-packs.png
+- caption:
+    C: Downloading maps
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/download-maps.png
+- caption:
+    C: Downloading mods
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/0fa61f27101a544cbf7e5e4696b2bbdaae961f9a/screenshots/download-mods.png
+- caption:
+    C: Downloading shader packs
+  thumbnails: []
+  source-image:
+    url: https://raw.githubusercontent.com/Voxelum/flatpak-metadata/53d7f8b228e0b784797e2c7cb93f6c87648690f8/screenshots/download-shader-pack.png
+Branding:
+  colors:
+  - type: primary
+    scheme-preference: light
+    value: '#14b8a6'
+  - type: primary
+    scheme-preference: dark
+    value: '#14b8a6'
+Releases:
+- version: v0.54.2
+  type: stable
+  unix-timestamp: 1769126400
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.54.2
+- version: v0.54.1
+  type: stable
+  unix-timestamp: 1769040000
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.54.1
+- version: v0.54.0
+  type: stable
+  unix-timestamp: 1768953600
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.54.0
+- version: v0.53.3
+  type: stable
+  unix-timestamp: 1767052800
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.53.3
+- version: v0.53.2
+  type: stable
+  unix-timestamp: 1765929600
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.53.2
+- version: v0.53.1
+  type: stable
+  unix-timestamp: 1764806400
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.53.1
+- version: v0.53.0
+  type: stable
+  unix-timestamp: 1764547200
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.53.0
+- version: v0.52.7
+  type: stable
+  unix-timestamp: 1760313600
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.52.7
+- version: v0.52.6
+  type: stable
+  unix-timestamp: 1759881600
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.52.6
+- version: v0.52.5
+  type: stable
+  unix-timestamp: 1759536000
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.52.5
+- version: v0.52.2
+  type: stable
+  unix-timestamp: 1758672000
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.52.2
+- version: v0.52.0
+  type: stable
+  unix-timestamp: 1758412800
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.52.0
+- version: v0.51.6
+  type: stable
+  unix-timestamp: 1755820800
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.6
+- version: v0.51.5
+  type: stable
+  unix-timestamp: 1755216000
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.5
+- version: v0.51.4
+  type: stable
+  unix-timestamp: 1754611200
+  url:
+    details: https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.4
+ContentRating:
+  oars-1.1:
+    violence-cartoon: moderate
+    violence-fantasy: moderate
+    social-chat: intense
+    social-info: mild
+    social-audio: intense
