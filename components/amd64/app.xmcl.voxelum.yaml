@@ -1,6 +1,7 @@
 ---
 Type: desktop-application
 ID: app.xmcl.voxelum
+Package: xmcl
 ProjectLicense: MIT
 Name:
   C: X Minecraft Launcher
@@ -49,7 +50,7 @@ Url:
   vcs-browser: https://github.com/Voxelum/x-minecraft-launcher
 Launchable:
   desktop-id:
-  - app.xmcl.voxelum.desktop
+  - xmcl.desktop
 Recommends:
 - control: pointing
 - control: keyboard

@@ -1,6 +1,7 @@
 ---
 Type: desktop-application
 ID: com.musehub.MuseSoundsManager
+Package: muse-sounds-manager
 ProjectLicense: GPL-3.0-only
 Name:
   C: Muse Sounds Manager
@@ -38,14 +39,14 @@ Keywords:
   - instrument
 Url:
   homepage: https://musescore.org/
-  help: https://handbook.musescore.org/handbook/installation/muse-hub#muse-sounds-manager-linux-only
+  help: https://handbook.musescore.org/sound-and-playback/musesounds#muse-sounds-manager-linux-only
   bugtracker: https://github.com/musescore/MuseScore/issues
   donation: https://musescore.org/en/donate
 Icon:
   stock: muse-sounds-manager
 Launchable:
   desktop-id:
-  - com.musehub.MuseSoundsManager.desktop
+  - muse-sounds-manager.desktop
 Provides:
   binaries:
   - muse-sounds-manager
