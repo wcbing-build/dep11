@@ -1,3 +1,4 @@
+---
 Type: desktop-application
 ID: com.musehub.MuseSoundsManager
 ProjectLicense: GPL-3.0-only
@@ -55,12 +56,5 @@ Screenshots:
   thumbnails: []
   source-image:
     url: https://musescore.org/sites/musescore.org/files/muse-sounds-manager-linux.png
-Releases:
-- version: 1.0.0
-  type: stable
-  unix-timestamp: 1704067200
-  description:
-    C: >-
-      <p>Initial release of Muse Sounds Manager for Linux.</p>
 ContentRating:
   oars-1.1: {}
